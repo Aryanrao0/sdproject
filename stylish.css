@@ -1,0 +1,233 @@
+.one{ position: absolute
+    top: -6px;;
+    width: 1540px;
+    height:800px;
+    background-color:  rgb(96, 95, 95);
+}
+div.polaroid1{
+     float: left;
+     
+    margin-top: ;
+    background-color: white;
+    width: 250px;
+    box-shadow: 0px 4px 8px 0px rgb(24, 22, 22), 0 6px 20px 0 rgba(36, 34, 34, 0.731);
+    text-align: center;
+  }
+  
+  div.container{
+    padding: 10px;
+  }
+
+  .text1{position: relative;
+    left: 250px;
+    top: 180px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+  }
+  .dabbaone{
+    position: relative;
+    left: 200px ;
+    top: 150px;
+  }
+  /*code of reality*/
+  div.polaroid2{
+    float: right;
+    
+   
+   background-color: white;
+   width: 250px;
+   box-shadow: 0px 4px 8px 0px rgb(24, 22, 22), 0 6px 20px 0 rgba(36, 34, 34, 0.731);
+   text-align: center;
+ }
+ .text2{position: relative;
+  left: 600px;
+ top: 230px;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+}
+.dabbatwo{
+  position: relative;
+  right: 200px ;
+  top: 240px;
+}
+#on{
+  position: relative;
+   right: 245px;
+}
+/*code for white page*/
+.two{ position: absolute
+  top: -6px;;
+  width: 1540px;
+  height:800px;
+  background-color:  white;
+}
+div.polaroid1{
+   float: left;
+   
+  margin-top: ;
+  background-color: ;
+  width: 250px;
+  box-shadow: 0px 4px 8px 0px rgb(24, 22, 22), 0 6px 20px 0 rgba(36, 34, 34, 0.731);
+  
+  text-align: center;
+}
+
+div.container{
+  padding: 10px;
+}
+
+.text3{position: relative;
+  left: 250px;
+  top: 180px;
+  color:rgb(96, 95, 95);
+  font-family: 'Oswald', sans-serif;
+}
+.dabbaone{
+  position: relative;
+  left: 200px ;
+  top: 150px;
+}
+/*code of reality*/
+div.polaroid2{
+  float: right;
+  
+ 
+ background-color: white;
+ width: 250px;
+ box-shadow: 0px 4px 8px 0px rgb(24, 22, 22), 0 6px 20px 0 rgba(36, 34, 34, 0.731);
+ text-align: center;
+}
+.text4{position: relative;
+left: 600px;
+top: 230px;
+color: rgb(96, 95, 95);
+font-family: 'Oswald', sans-serif;
+
+}
+.dabbatwo{
+position: relative;
+right: 200px ;
+top: 190px;
+}
+#on{
+position: relative;
+ right: 245px;
+}
+#bada{
+  font-size: 400%;
+  color: #FFDD00;
+}
+.buttons{ 
+  display:-ms-grid;
+  height:80px;
+  place-items:center;
+  padding-left: 10px;
+  background:#111;
+  
+  overflow: hidden;
+}
+button{
+position: relative;
+  top: 10px;
+  left:1000px;
+  height: 60px;
+  width: 200px;
+  margin: 0 35px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  background: #111;
+  border-radius: 20px 20px 20px 20px;
+  color:#fff;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+button:first-child{
+ 
+  background: linear-gradient(90deg, #03a9f4 ,#f441a5, #ffeb3b, #03a9f4);
+  background-size: 400%;
+}
+button:nth-child(2){
+  background-size: 400%;
+  background: linear-gradient(90deg, #03a9f4 ,#f441a5, #ffeb3b, #03a9f4 );
+
+}
+button:last-child{
+  
+  background: linear-gradient(90deg, #03a9f4 ,#f441a5, #ffeb3b, #03a9f4);
+  background-size: 400%;
+}
+button:first-child:before,
+button:nth-child(2):before,
+button:last-child:before{
+  content: '' ;
+  position: absolute;
+  background: inherit;
+  top: -5px;
+  right: -5px;
+  bottom: -5px;
+  left: -5px;
+ border-radius:50px;
+filter: blur(10px);
+opacity:0;
+transition: opacity 0.5s;
+}
+button:first-child:hover:before,
+button:nth-child(2):hover:before,
+button:last-child:hover:before{
+  opacity:1;
+  z-index: -1;
+
+}
+button:hover{
+  z-index:1;
+  animation: glow 8s linear infinite;
+}
+@keyframes glow{
+  0%{background-position: 0%;
+  }
+  100%{
+      background-position: 400%;
+  }
+}
+.ost{
+
+  font-size:xx-large;
+
+}
+.dabbaoneu{
+  position: relative;
+  left: 200px ;
+  top: 50px;
+}
+
+.text1u{
+  position: relative;
+  left: 250px;
+  top: 80px;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+}
+.dabbatwou{
+  position: relative;
+  right: 250px ;
+  top: 90px;
+}
+.text2u{
+  position: relative;
+  left: 600px;
+ top: 180px;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+}
+.links{
+  color: #060606;
+  text-decoration: none;
+}
+.dabbatwonew{
+  position: relative;
+  right: 230px ;
+  top: 50px;
+}

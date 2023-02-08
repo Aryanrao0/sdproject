@@ -1,0 +1,145 @@
+
+body{ 
+    background-image: url("../HTML/images/back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+   
+
+}
+#first{
+    width: 800px;
+    height: 300px;
+    background-color:#e0d5ca;
+    border: 300px;
+    border-radius:  15px 50px 30px;
+    border: 305px;
+    border-color: red;
+    margin-left: 20px;
+    
+    
+}
+#second{font-size:x-large;
+    color:black;
+}
+#navbar{
+    background-color: black;
+    width: 2000px;
+    height:100px;
+    
+}
+
+
+#fourth{
+     font-family: fantasy  ;
+    font-size: 300%;
+   
+    
+    
+    color:#CF6679;
+    
+ 
+    
+}
+#main{ position: relative;
+    left:900px;
+    background-color: white;
+    width: 600px;
+    height: 300px;
+    
+    border: 300px;
+    border-radius:  50px 10px 50px 30px;
+    border: 305px;
+  
+    
+}
+
+.hobby{
+    padding-left: 50px;
+     width: 100px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+#Hobby{ 
+  
+    font-family: 'Nabla', cursive;
+   margin-left: auto;
+}
+.buttons{ 
+    display:-ms-grid;
+    height:80px;
+    place-items:center;
+    position: relative;
+    left: 180px;
+    
+    overflow: hidden;
+    
+}
+button{
+position: relative;
+    top: 10px;
+    left:300px;
+    height: 60px;
+    width: 200px;
+    margin: 0 35px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background: #111;
+    color:#fff;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+button:first-child{
+   
+    background: linear-gradient(90deg, #03a9f4 ,#f441a5, #ffeb3b, #03a9f4);
+    background-size: 400%;
+}
+button:nth-child(2){
+    background-size: 400%;
+    background: linear-gradient(90deg, #fa7199,#f5ce62, #e43603, #03a9f4);
+
+}
+button:last-child{
+    
+    background: linear-gradient(90deg, #03a9f4 ,#f441a5, #ffeb3b, #03a9f4);
+    background-size: 400%;
+}
+button:first-child:before,
+button:nth-child(2):before,
+button:last-child:before{
+    content: '' ;
+    position: absolute;
+    background: inherit;
+    top: -5px;
+    right: -5px;
+    bottom: -5px;
+    left: -5px;
+   border-radius:50px;
+filter: blur(10px);
+opacity:0;
+transition: opacity 0.5s;
+}
+button:first-child:hover:before,
+button:nth-child(2):hover:before,
+button:last-child:hover:before{
+    opacity:1;
+    z-index: -1;
+
+}
+button:hover{
+    z-index:1;
+    animation: glow 8s linear infinite;
+}
+@keyframes glow{
+    0%{background-position: 0%;
+    }
+    100%{
+        background-position: 400%;
+    }
+}
+.links{
+    color: #fff;
+    text-decoration: none;
+}
